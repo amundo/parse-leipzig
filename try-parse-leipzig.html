@@ -9,6 +9,7 @@
   <meta property="og:image" content="https://doclingjs.github.io/parse-leipzig/try-parse-leipzig-preview.png">
   <meta property="og:url" content="https://doclingjs.github.io/parse-leipzig/try-parse-leipzig.html">
   <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 16 16'%3E%3Ctext x='0' y='14'%3E%E2%9C%82%EF%B8%8F%3C/text%3E%3C/svg%3E">
 
   <title>Try parse-leipzig.js</title>
   <style>
@@ -39,7 +40,7 @@
     }
   
     header h1 {
-      flex: 5;
+      flex: 2;
     }
 
     header p {
@@ -99,14 +100,13 @@
 <body>
   <header>
     <h1>Try <code>parse-leipzig.js</code></h1>
-    <p>Try clicking a word in the presentation of the <a href="https://www.eva.mpg.de/lingua/resources/glossing-rules.php">Leipzig Parsing Rules</a> here, or else type in your own and click “parse”. The data strcture preview will update when submitted. <a href="https://github.com/doclingjs/parse-leipzig">github.com/doclingjs/parse-leipzig</a></p>
+    <p>Try clicking a word in the presentation of the <a href="https://www.eva.mpg.de/lingua/resources/glossing-rules.php">Leipzig Parsing Rules</a> here, or else type in your own and click “parse”. The data structure preview will update when submitted. <a href="https://github.com/doclingjs/parse-leipzig">github.com/doclingjs/parse-leipzig</a></p>
   </header>
   <main>
     <form id="inputs">
-      <label>Form: <input name="form" placeholder="form"></label>
-      <label>Gloss: <input name="gloss" placeholder="gloss"></label>
+      <label>Form: <input name="form" placeholder="form"> <span class=form-morpheme-count></span></label>
+      <label>Gloss: <input name="gloss" placeholder="gloss"> <span class=gloss-morpheme-count></span></label>
       <button>Parse</button>
-      <div id="warning"></div>
     </form>
 
     <text-view src="leipzig-text.json"></text-view>

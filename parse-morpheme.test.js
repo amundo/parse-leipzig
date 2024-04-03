@@ -1,46 +1,54 @@
-import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
 import { 
-  parseLeipzig
-} from './parse-leipzig.js'
+  assertEquals,
+  assertExists
+} from "https://deno.land/std/testing/asserts.ts";
+import { 
+  parseMorpheme
+} from './parse-morpheme.js'
 
-Deno.test("single morpheme", () => {
+Deno.test("basic morpheme", () => {
   let input = {
       "form": "sekarang",
       "gloss": "now"
   }
   
-  let expected = [
-    {
+  let expected = {
       "form": "sekarang",
-      "gloss": "now"
+      "gloss": "now",
+      "grammar": {}
     }
-  ]
   
-  assertEquals(parseLeipzig(input), expected);
+  assertEquals(parseMorpheme(input), expected);
 })
+
+
+Deno.test(".grammar is a {}", () => {
+  let input = {
+    "form": "sekarang",
+    "gloss": "now"
+  }
+
+  assertExists(parseMorpheme(input).grammar);
+})
+
+/*
 
 Deno.test("clitic", () => {
   let input = {
-    form: "palasi=lu",
-    gloss: "priest=and"
+    form: "=lu",
+    gloss: "=and"
   }
-  let expected = [
-    {
-      "form": "palasi",
-      "gloss": "priest"
-    },
-    {
-      "form": "lu",
-      "gloss": "and",
-      "metadata": {
-        "type": "clitic",
-        "attach": "left"
-      }
+  let expected = {
+    "form": "lu",
+    "gloss": "and",
+    "grammar": {
+      "type": "clitic",
+      "attach": "left"
     }
-  ]
+  }
+  
   assertEquals(parseLeipzig(input), expected)
 })
-
 
 Deno.test("no empty morphemes", () => {
   let input = {
@@ -70,7 +78,6 @@ Deno.test("parse infix", () => {
   assertEquals(parseLeipzig(input), expected)
 })
 
-/*
 
 Deno.test("infix", () => {
   let input = {

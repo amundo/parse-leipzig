@@ -1,8 +1,11 @@
 {
   "metadata": {
-    "title": "Representation of the Leipzig Glossing Rules as a docling.js text object",
+    "title": "Leipzig Glossing Rules",
     "source": "Leipzig Glossing Rules",
-    "url": "https://www.eva.mpg.de/lingua/resources/glossing-rules.php"
+    "url": "https://www.eva.mpg.de/lingua/pdf/Glossing-Rules.pdf",
+    "notes": [
+      "There are several errors in the web version of this file at https://www.eva.mpg.de/lingua/resources/glossing-rules.php, hence using the PDF as reference here."
+    ]
   },
   "sentences": [
     {
@@ -17,8 +20,8 @@
       "transcription": "Mereka di Jakarta sekarang.",
       "words": [
         {
-          "form": "Mereka",
-          "gloss": "They"
+          "form": "mereka",
+          "gloss": "they"
         },
         {
           "form": "di",
@@ -33,7 +36,7 @@
           "gloss": "now"
         }
       ],
-      "translation": "'They are in Jakarta now.'"
+      "translation": "They are in Jakarta now."
     },
     {
       "metadata": {
@@ -93,7 +96,7 @@
           "gloss": "shopkeeper=and"
         }
       ],
-      "translation": "'both the priest and the shopkeeper'"
+      "translation": "both the priest and the shopkeeper"
     },
     {
       "metadata": {
@@ -111,7 +114,7 @@
           "gloss": "3SG-laugh-FUT"
         }
       ],
-      "translation": "'s/he will laugh'"
+      "translation": "s/he will laugh"
     },
     {
       "metadata": {
@@ -146,14 +149,14 @@
         },
         {
           "form": "v",
-          "gloss": "All"
+          "gloss": "ALL"
         },
         {
           "form": "Peredelkino",
           "gloss": "Peredelkino"
         }
       ],
-      "translation": "we\n\t\t\t    with\n\t\t\t    Markogo-PST-PL\n\t\t\t    bus-by\n\t\t\t    to\n\t\t\t    Peredelkino."
+      "translation": "Marko and I went to Perdelkino by bus."
     },
     {
       "metadata": {
@@ -171,7 +174,7 @@
           "gloss": "come.out-INF"
         }
       ],
-      "translation": "'to come out'"
+      "translation": "to come out"
     },
     {
       "metadata": {
@@ -189,7 +192,7 @@
           "gloss": "island-GEN.PL"
         }
       ],
-      "translation": "'of the islands'"
+      "translation": "of the islands"
     },
     {
       "metadata": {
@@ -211,7 +214,7 @@
           "gloss": "horse.PL"
         }
       ],
-      "translation": "'to the horses'"
+      "translation": "to the horses"
     },
     {
       "metadata": {
@@ -233,7 +236,7 @@
           "gloss": "father.PL-DAT.PL"
         }
       ],
-      "translation": "'to our fathers'"
+      "translation": "to our fathers"
     },
     {
       "metadata": {
@@ -263,7 +266,7 @@
           "gloss": "eat.they.shall"
         }
       ],
-      "translation": "'They shall celebrate him on that date.' (CONN = connective)"
+      "translation": "They shall celebrate him on that date.' (CONN = connective)"
     },
     {
       "metadata": {
@@ -285,7 +288,7 @@
           "gloss": "2DU.A.3SG.P-FUT-poke"
         }
       ],
-      "translation": "'Who do you two want to spear?'"
+      "translation": "Who do you two want to spear?"
     },
     {
       "metadata": {
@@ -303,7 +306,7 @@
           "gloss": "come_out-INF"
         }
       ],
-      "translation": "'to come out'"
+      "translation": "to come out"
     },
     {
       "metadata": {
@@ -321,7 +324,7 @@
           "gloss": "island-GEN;PL"
         }
       ],
-      "translation": "'of the islands'"
+      "translation": "of the islands"
     },
     {
       "metadata": {
@@ -343,7 +346,7 @@
           "gloss": "horse;PL"
         }
       ],
-      "translation": "'to the horses'"
+      "translation": "to the horses"
     },
     {
       "metadata": {
@@ -373,7 +376,7 @@
           "gloss": "eat:they:shall"
         }
       ],
-      "translation": "'They shall celebrate him on that date.'"
+      "translation": "They shall celebrate him on that date."
     },
     {
       "metadata": {
@@ -392,10 +395,10 @@
         },
         {
           "form": "Väter-n",
-          "gloss": "father.PL-DAT.PL"
+          "gloss": "father\\PL-DAT.PL"
         }
       ],
-      "translation": "'to our fathers' (cf. singular Vater)"
+      "translation": "to our fathers"
     },
     {
       "metadata": {
@@ -413,7 +416,7 @@
           "gloss": "PST\\break-2SG"
         }
       ],
-      "translation": "'you broke' (cf. nonpast bris-)"
+      "translation": "you broke' (cf. nonpast bris-)"
     },
     {
       "metadata": {
@@ -431,7 +434,7 @@
           "gloss": "SBJV\\1PL-work"
         }
       ],
-      "translation": "'that we work' (cf. indicative mù-kòrà)"
+      "translation": "that we work' (cf. indicative mù-kòrà)"
     },
     {
       "metadata": {
@@ -453,7 +456,7 @@
           "gloss": "2DU>3SG-FUT-poke"
         }
       ],
-      "translation": "'Who do you two want to spear?'"
+      "translation": "Who do you two want to spear?"
     },
     {
       "metadata": {
@@ -471,7 +474,7 @@
           "gloss": "go-PRS.1PL (not: go-PRS.1.PL)"
         }
       ],
-      "translation": "'we go'"
+      "translation": "we go"
     },
     {
       "metadata": {
@@ -548,7 +551,7 @@
           "gloss": "G4-bend-PRET"
         }
       ],
-      "translation": "'Because of the boy the tree bent.'"
+      "translation": "Because of the boy the tree bent."
     },
     {
       "metadata": {
@@ -566,7 +569,7 @@
           "gloss": "hear-3PL.UND-1SG.ACT-hear"
         }
       ],
-      "translation": "'I hear them' (UND = undergoer, ACT = actor)"
+      "translation": "I hear them' (UND = undergoer, ACT = actor)"
     },
     {
       "metadata": {
@@ -584,7 +587,7 @@
           "gloss": "hear-3PL.UND-1SG.ACT- STEM"
         }
       ],
-      "translation": "'I hear them'"
+      "translation": "I hear them"
     },
     {
       "metadata": {
@@ -604,10 +607,9 @@
         {
           "form": "ge-seh-en",
           "gloss": "PTCP-see-CIRC"
-
         }
       ],
-      "translation": "'seen'"
+      "translation": "seen"
     },
     {
       "metadata": {
@@ -621,11 +623,11 @@
       "transcription": "b<um>ili (stem: bili)",
       "words": [
         {
-          "form": "b<um>ili (stem: bili",
+          "form": "b<um>ili",
           "gloss": "<ACTFOC>buy"
         }
       ],
-      "translation": "'buy'"
+      "translation": "buy"
     },
     {
       "metadata": {
@@ -643,7 +645,7 @@
           "gloss": "leave<PRS>-INF"
         }
       ],
-      "translation": "'to leave'"
+      "translation": "to leave"
     },
     {
       "metadata": {
@@ -661,7 +663,7 @@
           "gloss": "green~ATT-M.PL"
         }
       ],
-      "translation": "'greenish ones' (ATT= attenuative)"
+      "translation": "greenish ones' (ATT= attenuative)"
     },
     {
       "metadata": {
@@ -679,7 +681,7 @@
           "gloss": "IPFV~buy"
         }
       ],
-      "translation": "'is buying'"
+      "translation": "is buying"
     },
     {
       "metadata": {
@@ -697,7 +699,7 @@
           "gloss": "<ACTFOC>IPFV~buy"
         }
       ],
-      "translation": "'is buying' (ACTFOC = Actor focus)"
+      "translation": "is buying' (ACTFOC = Actor focus)"
     }
   ]
 }
